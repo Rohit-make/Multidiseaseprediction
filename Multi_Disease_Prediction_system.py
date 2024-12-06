@@ -38,7 +38,7 @@ with st.sidebar:
 if selected == 'Diabetes Prediction':
 
     # page title
-    st.title('Diabetes Prediction using ML')
+    st.title('Diabetes Prediction using ML(fill all box)')
 
     # getting the input data from the user
     col1, col2, col3 = st.columns(3)
@@ -73,7 +73,7 @@ if selected == 'Diabetes Prediction':
 
     # creating a button for Prediction
 
-    if st.button('Diabetes Test Result'):
+    if st.button('Diabetes Test Result(fill all box)'):
 
         user_input = [Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin,
                       BMI, DiabetesPedigreeFunction, Age]
@@ -93,7 +93,7 @@ if selected == 'Diabetes Prediction':
 if selected == 'Heart Disease Prediction':
 
     # page title
-    st.title('Heart Disease Prediction using ML')
+    st.title('Heart Disease Prediction using ML(fill all box)')
 
     col1, col2, col3 = st.columns(3)
 
