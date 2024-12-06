@@ -73,7 +73,7 @@ if selected == 'Diabetes Prediction':
 
     # creating a button for Prediction
 
-    if st.button('Diabetes Test Result(fill all box)'):
+    if st.button('Diabetes Test Result'):
 
         user_input = [Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin,
                       BMI, DiabetesPedigreeFunction, Age]
@@ -160,7 +160,7 @@ if selected == 'Heart Disease Prediction':
 if selected == "Parkinsons Prediction":
 
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Parkinson's Disease Prediction using ML(fill all box)")
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
