@@ -14,11 +14,11 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/singh/Desktop/Multi_Disease_Prediction_system/save_model/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open(f'{working_dir}/save_model/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/singh/Desktop/Multi_Disease_Prediction_system/save_model/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open(f'{working_dir}/save_model/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/singh/Desktop/Multi_Disease_Prediction_system/save_model/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open(f'{working_dir}/save_model/parkinsons_model.sav', 'rb'))
 
 
 
